@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       android:id="@+id/container_layout">
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Ingresar gasolinera"
+           android:onClick="agregar_gasolinera"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Modificar gasolinera"
+           android:onClick="modificar_gasolinera"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="eliminar gasolinera"
+           android:onClick="eliminar_gasolinera"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Ver Gasolineras"
+           android:onClick="ver_gasolineras"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ver Mapa"
+           android:onClick="ver_mapa"/>
+
+   </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

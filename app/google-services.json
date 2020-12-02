@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "269132771608",
+    "firebase_url": "https://gasolinera-697b4.firebaseio.com",
+    "project_id": "gasolinera-697b4",
+    "storage_bucket": "gasolinera-697b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269132771608:android:e06c02c96b507b03ff2e6d",
+        "android_client_info": {
+          "package_name": "com.example.gasolineras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269132771608-eeqqshk9qoi6td8kejrtlcpm0rs6e32r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkHnuMKT5WmL-6VGrGBJseLWXVdU0yAjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269132771608-eeqqshk9qoi6td8kejrtlcpm0rs6e32r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
